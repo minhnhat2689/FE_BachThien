@@ -1,0 +1,575 @@
+
+.header_xanh {
+  background-color: #4eb448;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header_xanh_right{
+  display: flex;
+  padding-right: 200px;
+  color:  white
+}
+
+.amenu {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.amenu:hover {
+  color: #0da146;
+}
+
+.header_xanh_left{
+  padding-left: 200px;
+}
+
+.icon_search{
+  padding-right: 10px;
+}
+/* Dòng chữ chạy */
+.marquee {
+  height: 25px;
+  width: 600px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 5s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+
+select {
+  padding: 5px;
+  font-size: 12px;
+  color: #333;
+  border: 1px solid #ccc;
+
+}
+
+
+option {
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+/* noi dung */
+.scroll {
+  text-align: center;
+  position: relative  ;
+  bottom: 105px;
+}
+
+.chu {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.hatcf{
+  border-left: 3px solid rgb(181, 181, 182);
+  height: 100px; /* thiết lập chiều cao cho đường kẻ */
+}
+
+.nhom_sp{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tieude{
+margin-right: 0px;
+}
+.conca{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video_cf{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo_doitac{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tin_tuc{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_gioithieu{
+  left: 50px;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border: 0.1em solid #000000;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.btn1:hover {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.gioi_thieu {
+  background-image: url(./image/bggt.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tai_sao{
+  left: 42px;
+}
+
+.tai_sao img {
+  left: 20px
+}
+
+.bonghoa {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+
+/* 4 o vuong */
+.conso-right {
+  width: 40%
+}
+
+.grid-conso {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2,1fr)
+}
+
+.grid-conso .conso-item {
+
+  height: 200px
+}
+
+.grid-conso .conso-item:nth-child(1) {
+  padding-top: 30px;
+  padding-left: 30px
+}
+
+.grid-conso .conso-item:nth-child(4) {
+  padding-bottom: 30px;
+  padding-right: 30px
+}
+
+.grid-conso .conso-item:nth-child(1) .conso-box,.grid-conso .conso-item:nth-child(4) .conso-box {
+  background: #221f1f;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%
+}
+
+.grid-conso .conso-item:nth-child(2) .conso-box,.grid-conso .conso-item:nth-child(3) .conso-box {
+  background: #4eb448;
+  border-radius: 15px;
+  height: 100%;
+  height: 100%;
+  width: 100%
+}
+
+.grid-conso .conso-item .conso-box {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.grid-conso .conso-item .conso-box p {
+  margin: 0px
+}
+
+.grid-conso .conso-item .conso-box p .counter {
+  font-size: 30px;
+  color: #FFF;
+  margin: 50px 50px 0px 50px;
+  font-weight: 600;
+}
+
+
+.grid-conso .conso-item .conso-box p {
+  text-transform: uppercase;
+  color: #FFF;
+  margin: 20px 20px 0px 20px;
+  font-weight: 600;
+}
+
+#conso-contain {
+  padding: 40px 0px
+}
+
+
+.item15 {
+  padding: 0px 15px
+}
+
+
+.bono {
+  left: 100px
+}
+
+.card {
+  border: none;
+}
+
+.card-title:hover{
+  color: red;
+}
+
+.cavideo {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.hvideo:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.hvideo{
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer_1 {
+  background-image: url(./image/bg-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cafe a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.cafe a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+ul{
+  list-style: none;
+}
+
+.foot_left {
+  color: #ffffff;
+}
+.copyright {
+  padding: 10px;
+  color: white;;
+  background-color: #4BAA46;
+  text-align: center;
+
+}
+
+.sontung {
+  max-width: 100%;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  margin-left: 150px;
+}
+.navbar-nav{
+  margin-right: 130px;
+}
+.chu_tintuc{
+  font-weight: 700;
+  font-size: medium;
+}
+.tde {
+  font-weight: 550;
+}
+.taisao_chu{
+  color: #000000;
+  font-weight: 600;
+}
+.taisaotd{
+  font-weight: 550;
+}
+.taisaond{
+  color: #000000;
+}
+
+@media (max-width:  992px ){
+  .navbar-brand {
+      margin-left: 50px;
+  }
+  .scroll img{
+      width: 50%  ;
+      margin-top: 60px;
+  }
+  .hatcf {
+      height: auto;
+  }
+  .text_gt{
+      text-align: center;
+  }
+  .bono {
+      left: 0px
+  }
+  .banner_duoi img{
+      height: 100px;
+  }
+  .daiv{
+      width:400px
+  }
+  .lienhe {
+      text-align: center;
+  }
+  .nhom_sp {
+      text-align: center;
+      margin-right: auto;
+  }
+  .mxh{
+      text-align: center;
+  }
+  .mxh img{
+      width: 10%;
+  }
+  .navbar-expand-sm {
+      flex-flow: column;
+  }
+  .navbar-expand-sm .navbar-collapse{
+      margin-left: 100px;
+  }
+  .navbar-toggler{
+      margin-left: 30px;
+  }
+  .header_trang_left {
+      padding-left: 0px;
+  }
+  .marquee {
+      height: 25px;
+      width: 340px;
+      overflow: hidden;
+      position: relative;
+  }
+  .img_gioithieu {
+      left: 0px;
+  }
+  .header_trang_right {
+      padding: 0px 150px 0px 0px;
+  }
+  .navbar-toggler {
+      margin-left: 10px;
+  }
+  .navbar-brand {
+      margin-left: 26px;
+  }
+  .marquee {
+      height: 25px;
+      width: 322px;
+      overflow: hidden;
+      position: relative;
+  }
+
+  .marquee div {
+      width: 2000%;
+    }
+    .chuchay{
+      margin-left: 0px !important;
+  }
+
+
+  .bono {
+      left: -71px;
+  }
+  .bonghoa {
+      margin-left: 31px;
+      margin-top: 100px;
+  }
+  .grid-conso .conso-item {
+      height: 133px;
+      width: 120px;
+  }
+  .tai_sao {
+      left: 0px;
+  }
+  .grid-conso {
+      display: grid;
+      grid-gap: 4px;
+      grid-template-columns: repeat(2,1fr);
+  }
+  .grid-conso .conso-item .conso-box p .counter {
+      font-size: 20px;
+      color: #FFF;
+      margin: 50px 50px 0px 50px;
+      font-weight: 600;
+  }
+  .counden {
+      font-size: 10px;
+      font-weight: 600;
+  }
+  .grid-conso .conso-item .conso-box p {
+      text-transform: uppercase;
+      color: #FFF;
+      margin: 9px 20px 0px 20px;
+      font-weight: 600;
+  }
+  .cafe{
+      right: 17px;
+  }
+}
+@media (max-width:  430px ){
+  .scroll img {
+      width: 50%;
+      margin-top: 80px;
+  }
+}
+
+@media (max-width: 796px){
+.navbar-expand-sm .navbar-collapse {
+  width: 100%;
+}
+.navbar-expand-sm .navbar-collapse {
+  margin-left: 27px;
+}
+}
+@media (max-width: 1173px){
+  .bono {
+
+  }
+}
+@media (max-width: 1077px){
+  .bono {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+
+
+
+/* Dropbtn */
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: #4eb448;
+  border-color: #4eb448;
+  color: rgb(255 255 255);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-primary:hover{
+  color: #fff;
+  background-color: #4eb448;
+  border-color: #4eb448;
+  color: rgb(255 255 255);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+  color: #fff;
+  background-color: #4eb448;
+  border-color: #4eb448;
+}
+
+#dropdownMenuButton {
+  color: #ffffff;
+}
+
+
+
+.timkiem{
+  margin-left: 460px;
+}
+
+.chuchay{
+  margin-left: 160px;
+}
+
+
+
+
+.product {
+  margin-top: 50px;
+  margin-right: 160px;
+  margin-left: 160px;
+  padding: auto;
+  box-sizing: border-box;
+
+}
+
+

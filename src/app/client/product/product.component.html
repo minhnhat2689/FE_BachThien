@@ -1,0 +1,39 @@
+<div class="product">
+  <div class="breadCrumbs">
+    <div class="wrap-content">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a class="text-decoration-none" href="https://bachthienorganic.com/">
+            <span>Trang chủ</span>
+          </a>
+        </li>
+        <li class="breadcrumb-item active">
+          <a class="text-decoration-none" href="https://bachthienorganic.com/gioi-thieu">
+            <span>Product</span>
+          </a>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <div class="danhmuc">
+    <h2>PRODUCT</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-3 mb-4" *ngFor="let p of products">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" [src]="p.img" alt="" width="100px" height="350px">
+          <div class="card-body">
+            <a routerLink="/product/detail/{{p._id}}"><h6 class="card-title" id="text-container">{{p.name}}</h6></a>
+            <hr>
+            <p class="card-text">{{p.price}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

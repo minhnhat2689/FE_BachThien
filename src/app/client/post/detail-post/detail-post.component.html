@@ -1,0 +1,32 @@
+
+
+<div class="container">
+
+
+  <div class="container-jn margin-in-top"><div class="breadCrumbs"><div class="wrap-content"><ol class="breadcrumb"><li class="breadcrumb-item"><a class="text-decoration-none" href="https://bachthienorganic.com/"><span>Trang chủ</span></a></li><li class="breadcrumb-item active"><a class="text-decoration-none" href="https://bachthienorganic.com/nhip-cau-nha-nong"><span>Chia sẻ kinh nghiệm</span></a></li></ol><script type="application/ld+json">{"@context": "https://schema.org","@type": "BreadcrumbList","itemListElement": [{"@type":"ListItem","position":1,"name":"Nh\u1ecbp c\u1ea7u nh\u00e0 n\u00f4ng","item":"https:\/\/bachthienorganic.com\/nhip-cau-nha-nong"}]}</script></div></div></div>
+  <div class="container-jn">
+    <header>
+      <h1>{{posts.title}}</h1>
+    </header>
+    <main>
+      <article>
+        <p class="article-meta">{{posts.date}}</p>
+        <p>{{posts.description}}</p>
+      </article>
+      <article>
+        <p class="article-meta">{{posts.doan1}}</p>
+        <p class="article-meta">{{posts.doan2}}</p>
+      </article>
+
+      <article>
+        <img [src]="posts.img[0]" alt="" width="100%">
+      </article>
+
+      <article>
+        <p class="article-meta">{{posts.doan3}}</p>
+        <p class="article-meta">{{posts.doan4}}</p>
+        <p class="article-content">{{posts.doanket}}</p>
+      </article>
+    </main>
+  </div>
+

@@ -1,0 +1,38 @@
+
+
+<div class="container">
+
+
+<div class="container-jn margin-in-top"><div class="breadCrumbs"><div class="wrap-content"><ol class="breadcrumb"><li class="breadcrumb-item"><a class="text-decoration-none" href="https://bachthienorganic.com/"><span>Trang chủ</span></a></li><li class="breadcrumb-item active"><a class="text-decoration-none" href="https://bachthienorganic.com/nhip-cau-nha-nong"><span>Chia sẻ kinh nghiệm</span></a></li></ol><script type="application/ld+json">{"@context": "https://schema.org","@type": "BreadcrumbList","itemListElement": [{"@type":"ListItem","position":1,"name":"Nh\u1ecbp c\u1ea7u nh\u00e0 n\u00f4ng","item":"https:\/\/bachthienorganic.com\/nhip-cau-nha-nong"}]}</script></div></div></div>
+<div class="container-jn">
+
+
+  <div class="row">
+    <div class="col-4 mb-4" *ngFor="let p of posts">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" [src]="p.img[0]" alt="" width="100px" height="200px">
+          <div class="card-body">
+            <h6 class="card-title" id="text-container">{{p.title}}</h6>
+            <hr>
+            <p class="card-text">{{p.date}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+  $(document).ready(function() {
+  var textContainer = $('#text-container');
+  var text = textContainer.text();
+  var maxLength = 20; // Số lượng ký tự tối đa bạn muốn hiển thị
+
+  if (text.length > maxLength) {
+    textContainer.text(text.substring(0, maxLength) + '...');
+  }
+});
+</script>
